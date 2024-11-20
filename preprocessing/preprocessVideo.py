@@ -1,7 +1,6 @@
 import cv2
 import os
 
-
 # Path to videos.
 video_directory = 'C:/Users/evans/OneDrive/Desktop/Vision_DROZY/data/videos_i8/'
 
