@@ -54,4 +54,4 @@ for filename in os.listdir(video_directory):
             frameIterations += 1
 
         videos += 1
-    # maybe don't add the massiv efucking giles to git#
+    # maybe don't add the massive fucking giles
