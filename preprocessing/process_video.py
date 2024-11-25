@@ -3,6 +3,26 @@ import os
 import numpy as np
 
 def process_video(video_path, output_base_dir):
+    """
+    Processes a video by extracting frames and saving them as PNG images, 
+    NumPy arrays, and their corresponding integral images in an organized 
+    directory structure.
+
+    This function is intended to reduce preprocessing time by precomputing 
+    data for further use in models. It supports grayscale frames and stores 
+    the results in separate folders for raw data (PNGs), NumPy arrays, and 
+    integral images.
+
+    :param video_path: Path to the video file to be processed.
+    :type video_path: str
+    :param output_base_dir: Directory where the processed data will be stored. 
+    The function creates subfolders for each type of data.
+    :type output_base_dir: str
+
+    :return: None
+    :rtype: None
+    """
+
     # Extract video name without extension
     filename_only = os.path.splitext(os.path.basename(video_path))[0]
     print(f"Processing video: {filename_only}")
