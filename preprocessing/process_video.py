@@ -5,7 +5,7 @@ import numpy as np
 def process_video(video_path, output_base_dir):
     """
     Processes a video by extracting frames and saving them as PNG images, 
-    NumPy arrays, and their corresponding integral images in an organized 
+    NumPy arrays, and their corresponding integral images in an organised 
     directory structure.
 
     This function is intended to reduce preprocessing time by precomputing 
