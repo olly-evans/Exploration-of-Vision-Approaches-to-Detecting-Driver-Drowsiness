@@ -43,6 +43,8 @@ def sum_region(integral_image_array, top_left, bottom_right):
     :return The sum of all pixels in a given rectangle.
     :rtype int
     '''
+
+    #
     pass
 
 array_dir = 'C:/Users/evans/OneDrive/Desktop/Vision_DROZY/data/images_i8/1-1/npy_arrays/1-1-0.npy'
